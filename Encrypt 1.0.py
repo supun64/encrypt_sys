@@ -203,3 +203,7 @@ while True:
     if program_running:
         break
     print("-"*100, "\n")
+
+
+def alg_2():
+    pass
