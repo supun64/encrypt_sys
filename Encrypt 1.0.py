@@ -1,10 +1,10 @@
-# #This is a small encrypted system for messages
-
-
+# This is a small encrypted system for messages
 # This is the code to encrypt a message with 25 characters
+
+
 def encrypt(alpha_msg):
 
-    grid = [["-"]*5 for i in range(5)]
+    grid = list(map(lambda x: ["-"]*5, list(range(5))))
 
     # These are the variables for a looping type
     ai = 4  # constant
